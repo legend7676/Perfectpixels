@@ -3,93 +3,108 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Name | Photographer</title>
-  <link rel="stylesheet" href="Stylesheet.css" />
+  <meta name="description" content="Sadiq Baba – Professional Photographer Portfolio based in Kano. Specialized in portraits, events, and lifestyle photography.">
+  <meta name="author" content="Sadiq Baba" />
+  <title>Sadiq Baba | Professional Photographer</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
+  <!-- Header -->
   <header>
-  <div class="container">
-    <h1>Perfect pixels</h1>
-    <nav>
-      <div class="hamburger" id="hamburger">&#9776;</div>
+    <div class="container">
+      <h1 class="logo">Perfect Pixels</h1>
+      <nav>
+        <div class="hamburger" id="hamburger">&#9776;</div>
         <ul class="nav-links" id="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-
+  <!-- Hero Section -->
   <section id="home" class="hero">
     <div class="container">
       <h2>Capturing Life's Beautiful Moments</h2>
-      <p>Professional Photographer Based in KANO</p>
+      <p>Professional Photographer Based in Kano, Nigeria</p>
+      <a href="#contact" class="btn">Book a Session</a>
     </div>
   </section>
 
+  <!-- About Section -->
   <section id="about" class="section">
-    <div class="container">
-      <h2>About Me</h2>
+    <div class="container about-container">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          Hi, I’m <strong>Sadiq Baba</strong>, a professional photographer with over 5 years of experience capturing
+          portraits, events, and lifestyle moments. I believe in storytelling through imagery — bringing out the personality, emotion, and uniqueness of every subject.
+        </p>
+        <p>
+          Whether it's a wedding, a personal branding session, or a scenic outdoor shoot, I bring creativity, professionalism, and warmth to every frame. Let's create timeless visuals that speak louder than words.
+        </p>
+      </div>
       <div class="about-image">
-      <img src="/Images/2025_05_04_09_12_IMG_8695.JPG" alt="Your Portrait" />
-    </div>
-      <p>Hi, I’m Sadiq baba, a professional photographer with a deep passion for capturing authentic moments and turning them into timeless memories. For over 5 years, I’ve specialized in portrait, event, and lifestyle photography — blending creativity with precision to tell powerful visual stories.
-
-Whether I’m shooting a wedding, a personal branding session, or a serene landscape, my goal is always the same: to reflect the genuine emotion, personality, and beauty of each subject through my lens.</br>
-
-Based in KANO, I work with clients locally and internationally, offering a warm, collaborative experience from the first meeting to the final edit. Photography, to me, isn’t just about taking pictures — it’s about preserving life’s most meaningful chapters.
-
-Let’s create something unforgettable together.</p>
-    </div>
-  </section>
-
-  <section id="gallery" class="section gallery-section">
-    <div class="container">
-      <h2>Gallery</h2>
-      <div class="gallery">
-        <img src="/Images/IMG_8550 copy.jpg" alt="Photo 1" />
-        <img src="/Images/IMG_8551 copy.jpg" alt="Photo 2" />
-        <img src="/Images/IMG_8552 copy.jpg" alt="Photo 3" />
-        <img src="/Images/IMG_8547 copy.jpg" alt="Photo 4" />
+        <img src="images/2025_05_04_09_12_IMG_8695.JPG" alt="Sadiq Baba Portrait" />
       </div>
     </div>
   </section>
 
+  <!-- Gallery Section -->
+  <section id="gallery" class="section gallery-section">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src="images/IMG_8550 copy.jpg" alt="Wedding moment" />
+        <img src="images/IMG_8551 copy.jpg" alt="Portrait session" />
+        <img src="images/IMG_8552 copy.jpg" alt="Lifestyle shoot" />
+        <img src="images/IMG_8547 copy.jpg" alt="Creative landscape" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
   <section id="services" class="section">
     <div class="container">
-      <h2>Services</h2>
+      <h2>My Services</h2>
       <ul class="services-list">
         <li>📸 Portrait Photography</li>
         <li>💍 Wedding Coverage</li>
         <li>🏞️ Landscape & Travel Shoots</li>
-        <li>🖼️ Prints & Custom Orders</li>
+        <li>🖼️ Photo Prints & Custom Orders</li>
       </ul>
     </div>
   </section>
 
+  <!-- Contact Section -->
   <section id="contact" class="section contact-section">
     <div class="container">
-      <h2>Contact</h2>
+      <h2>Contact Me</h2>
       <form id="contact-form">
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Your Message" required></textarea>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
         <button type="submit">Send Message</button>
       </form>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer>
     <div class="container">
-      <p>&copy; 2025 Your Name Photography. All Rights Reserved.</p>
+      <p>&copy; 2025 Sadiq Baba Photography. All Rights Reserved.</p>
+      <p>Follow me on:
+        <a href="#" target="_blank">Instagram</a> |
+        <a href="#" target="_blank">Facebook</a>
+      </p>
     </div>
   </footer>
 
-  <script src="Javascript.js.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
